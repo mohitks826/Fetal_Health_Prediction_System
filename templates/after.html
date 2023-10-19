@@ -1,0 +1,30 @@
+<html>
+
+<body>
+
+    <!-- <h1>Fetal Health Detection</h1>   -->
+    <center>
+
+    <h1>  Predicted condition is :  </h1>
+
+    {%if data == 1%}
+    <h2>Normal</h2>
+    <img src='static/images/NORMAL.png'>  
+
+    {%elif data == 2%}
+    <h2>Suspect</h2>
+    <img src='static/images/Suspect.png'>
+    
+    {%elif data == 3%}
+    <h2>Pathological</h2>
+    <img src='static/images/Pathological.png'>
+    
+    {%endif%}
+
+        <br><br>
+
+    </center>
+
+</body>
+
+</html>
